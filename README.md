@@ -1,4 +1,4 @@
-# 🌐 SECURA Frontend (Prototype)
+# 🌐 SIH-CCP Frontend (Prototype)
 
 ## 📌 Overview
 This is the **frontend prototype** for **SIH-25005 – SECURA: Image-Based Animal Type Classification & Analysis**.  
