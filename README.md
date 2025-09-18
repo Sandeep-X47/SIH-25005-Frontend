@@ -1,22 +1,26 @@
-# 🌐 Cow Lameness Detection Frontend (Prototype)
+# 🌐 SECURA Frontend (Prototype)
 
 ## 📌 Overview
-This is the **frontend prototype** for the Cow Lameness Detection project.  
-It provides a simple **TypeScript + React interface** where users can upload cow videos and view the lameness detection results returned by the backend API.  
+This is the **frontend prototype** for **SIH-25005 – SECURA: Image-Based Animal Type Classification & Analysis**.  
+The frontend is built with **React + TypeScript** and provides a user-friendly interface to interact with all project features.  
 
-⚠️ Note:  
-- This is only a prototype.  
-- No database is used.  
-- Results are displayed directly after calling the backend.  
-- Supports **local execution only (no deployment)**.  
+⚠️ Notes:  
+- This is only a **prototype**.  
+- No database → all results are handled via backend and stored as JSON.  
+- Works locally → requires backend to be running.  
+- Supports **5 Indian languages + English** for accessibility.  
 
 ---
 
 ## 🚀 Features
-- 🎥 Upload cow video files.  
-- 🔗 Connects with **FastAPI backend** for lameness analysis.  
-- 📊 Displays model results (Cow detected / Lame / Healthy).  
-- 🌍 Multi-language support (5 Indian languages + English).  
-- ⚡ Built with **React + TypeScript**.  
+- 🐄 **Image Upload (Cow Detection)** → Upload an image, system detects if cow is present.  
+   - If cow is detected → outputs *height, length, angle, etc.*  
+   - If not → shows *“No cow detected”*.  
+- 🎥 **Video Upload (Lameness Detection)** → Analyze gait and classify cow as *Lame* or *Healthy*.  
+- 🤖 **Chatbot (LLaMA-based)** → Ask livestock-related questions, get instant answers.  
+- ☁️ **Weather Info** → Detects user location via IP and shows weather details.  
+- 🌾 **Nutrition Suggestions** → Provides feed & nutrition recommendations based on cow status.  
+- 🎙️ **Speech-to-Text** → Convert voice input into text (supports English + 5 Indian languages).  
+- 🌍 **Multilingual UI** → Website available in Hindi, Tamil, Telugu, Kannada, Malayalam, and English.  
 
 ---
